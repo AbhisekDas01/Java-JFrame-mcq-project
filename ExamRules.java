@@ -54,7 +54,6 @@ public class ExamRules extends JFrame implements ActionListener {
         setVisible(true);  // Make the window visible
     }
 
-    @Override
     public void actionPerformed(ActionEvent e) {
         // When the button is clicked, dispose of this window and show the Home frame
         home.setVisible(true);
